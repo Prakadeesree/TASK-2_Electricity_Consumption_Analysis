@@ -5,19 +5,13 @@ Interactive Streamlit dashboard for analyzing household electricity consumption 
 ## Dataset
 
 Uses the [Individual Household Electric Power Consumption dataset](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption) or
-from ucimlrepo import fetch_ucirepo 
-  
-# fetch dataset 
+fetch data by using the code
+from ucimlrepo
+import fetch_ucirepo 
 individual_household_electric_power_consumption = fetch_ucirepo(id=235) 
-  
-# data (as pandas dataframes) 
 X = individual_household_electric_power_consumption.data.features 
 y = individual_household_electric_power_consumption.data.targets 
-  
-# metadata 
-print(individual_household_electric_power_consumption.metadata) 
-  
-# variable information 
+print(individual_household_electric_power_consumption.metadata)  
 print(individual_household_electric_power_consumption.variables) 
 
 
