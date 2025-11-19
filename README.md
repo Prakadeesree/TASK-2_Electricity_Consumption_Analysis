@@ -65,7 +65,7 @@ Classification accuracy: **96.29%**
 
 Uses the [Individual Household Electric Power Consumption dataset](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption) or
 
-fetch data by using the code
+## fetch data by using the code
 
 from ucimlrepo
 
