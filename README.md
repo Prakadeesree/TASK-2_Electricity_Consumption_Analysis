@@ -8,7 +8,7 @@ This project focuses on predicting energy usage, detecting anomalies, and groupi
 
 ## 🔥 SUPERVISED LEARNING
 
-### ** Method 1. Random Forest Regressor**
+### **Method 1. Random Forest Regressor**
 File: Consumption Analysis Task.ipynb
 - Uses past 24 hours as input window.
 - No scaling required.
