@@ -117,3 +117,10 @@ print(individual_household_electric_power_consumption.variables)
 
 <img width="1920" height="932" alt="image" src="https://github.com/user-attachments/assets/f88aad93-27d6-4c99-90f5-6f9d4e6a861f" />
 
+
+### ✔️ Final Conclusion
+
+- **With a large TXT dataset given → MLP gives better and smoother accuracy for this project.**
+- **If the same dataset were cleaned and stored as CSV → Random Forest accuracy could improve and might match or beat MLP for simpler patterns.**
+
+
