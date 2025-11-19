@@ -9,14 +9,14 @@ This project focuses on predicting energy usage, detecting anomalies, and groupi
 ## 🔥 SUPERVISED LEARNING
 
 ### ** Method 1. Random Forest Regressor**
-file: Consumption Analysis Task.ipynb
+File: Consumption Analysis Task.ipynb
 - Uses past 24 hours as input window.
 - No scaling required.
 - Stable baseline model.
 - **Performance:** MAE = 0.5018, RMSE = 0.7361
 
 ### **Method 2. MLP Regressor (Neural Network)**
-file: Consumption Analysis 2.ipynb
+File: Consumption Analysis 2.ipynb
 - Uses scaled 24-hour windows.
 - Learns smooth and complex time patterns better.
 - **Performance:** MAE = 0.0785, RMSE = 0.2130  
