@@ -67,7 +67,7 @@ Uses the [Individual Household Electric Power Consumption dataset](https://archi
 
 ## fetch data by using the code
 
-`
+```
 from ucimlrepo
 
 import fetch_ucirepo 
@@ -81,7 +81,7 @@ y = individual_household_electric_power_consumption.data.targets
 print(individual_household_electric_power_consumption.metadata)  
 
 print(individual_household_electric_power_consumption.variables) 
-`
+```
 
 ## Setup
 
