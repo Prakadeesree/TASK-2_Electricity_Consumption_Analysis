@@ -2,7 +2,7 @@
 
 Interactive Streamlit dashboard for analyzing household electricity consumption patterns.
 
-This project focuses on predicting energy usage, detecting anomalies, and grouping daily consumption patterns using ML models.I used two methods and got better accuracy with the MLP regressor (Consumption Analysis 2.ipynb)
+This project focuses on predicting energy usage, detecting anomalies, and grouping daily consumption patterns using ML models.I used two methods and got excellent accuracy of 96.2% with the MLP regressor (Consumption Analysis 2.ipynb)
 
 ---
 
