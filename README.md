@@ -6,7 +6,7 @@ This project focuses on predicting energy usage, detecting anomalies, and groupi
 
 ---
 
-## 🔥 SUPERVISED LEARNING
+## SUPERVISED LEARNING
 
 ### **Method 1. Random Forest Regressor**
 File: Consumption Analysis Task.ipynb
@@ -20,18 +20,18 @@ File: Consumption Analysis 2.ipynb
 - Uses scaled 24-hour windows.
 - Learns smooth and complex time patterns better.
 - **Performance:** MAE = 0.0785, RMSE = 0.2130  
-- ✅ **Much more accurate than Random Forest**
+- **Much more accurate than Random Forest**
 
 ---
 
-## 🎯 Difference (Short & Simple)
+## Difference (Short & Simple)
 - **Random Forest:** Easy, stable baseline but less accurate for time-series.
 - **MLP:** Needs scaling but gives **much better predictions**.
 - ✔️ **MLP is the better forecasting model** in this project.
 
 ---
 
-## 🧪 UNSUPERVISED LEARNING
+## UNSUPERVISED LEARNING
 
 ### **Anomaly Detection (Isolation Forest)**
 - Detects abnormal power usage points.
@@ -45,7 +45,7 @@ File: Consumption Analysis 2.ipynb
 
 ---
 
-## ⚡ RULE-BASED CATEGORY SYSTEM
+## RULE-BASED CATEGORY SYSTEM
 Automatically classifies predicted usage into:
 - Low Usage  
 - Medium Usage  
@@ -55,7 +55,7 @@ Classification accuracy: **96.29%**
 
 ---
 
-## ✅ Result 
+## Result 
 - **MLP > Random Forest** for forecasting accuracy.  
 - RF is useful as a quick baseline.  
 - Unsupervised models help identify unusual days and patterns.
@@ -67,7 +67,7 @@ Uses the [Individual Household Electric Power Consumption dataset](https://archi
 
 ## fetch data by using the code
 
-from ucimlrepo
+`from ucimlrepo
 
 import fetch_ucirepo 
 
@@ -79,7 +79,7 @@ y = individual_household_electric_power_consumption.data.targets
 
 print(individual_household_electric_power_consumption.metadata)  
 
-print(individual_household_electric_power_consumption.variables) 
+print(individual_household_electric_power_consumption.variables) `
 
 
 ## Setup
@@ -118,7 +118,7 @@ print(individual_household_electric_power_consumption.variables)
 <img width="1920" height="932" alt="image" src="https://github.com/user-attachments/assets/f88aad93-27d6-4c99-90f5-6f9d4e6a861f" />
 
 
-### ✔️ Final Conclusion
+### Final Conclusion
 
 - **With a large TXT dataset given → MLP gives better and smoother accuracy for this project.**
 - **If the same dataset were cleaned and stored as CSV → Random Forest accuracy could improve and might match or beat MLP for simpler patterns.**
