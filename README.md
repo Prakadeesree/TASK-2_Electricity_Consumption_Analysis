@@ -2,6 +2,63 @@
 
 Interactive Streamlit dashboard for analyzing household electricity consumption patterns.
 
+This project focuses on predicting energy usage, detecting anomalies, and grouping daily consumption patterns using ML models.I used two methods and got better accuracy with the MLP regressor (Consumption Analysis 2.ipynb)
+
+---
+
+## 🔥 SUPERVISED LEARNING
+
+### **1. Random Forest Regressor**
+- Uses past 24 hours as input window.
+- No scaling required.
+- Stable baseline model.
+- **Performance:** MAE = 0.5018, RMSE = 0.7361
+
+### **2. MLP Regressor (Neural Network)**
+- Uses scaled 24-hour windows.
+- Learns smooth and complex time patterns better.
+- **Performance:** MAE = 0.0785, RMSE = 0.2130  
+- ✅ **Much more accurate than Random Forest**
+
+---
+
+## 🎯 Difference (Short & Simple)
+- **Random Forest:** Easy, stable baseline but less accurate for time-series.
+- **MLP:** Needs scaling but gives **much better predictions**.
+- ✔️ **MLP is the better forecasting model** in this project.
+
+---
+
+## 🧪 UNSUPERVISED LEARNING
+
+### **Anomaly Detection (Isolation Forest)**
+- Detects abnormal power usage points.
+- Total anomalies detected: **22365**
+
+### **Clustering (KMeans)**
+- Groups days into 3 usage clusters:
+  - Cluster 0 → Low usage  
+  - Cluster 1 → Medium usage  
+  - Cluster 2 → High usage  
+
+---
+
+## ⚡ RULE-BASED CATEGORY SYSTEM
+Automatically classifies predicted usage into:
+- Low Usage  
+- Medium Usage  
+- High Usage  
+
+Classification accuracy: **96.29%**
+
+---
+
+## ✅ Result 
+- **MLP > Random Forest** for forecasting accuracy.  
+- RF is useful as a quick baseline.  
+- Unsupervised models help identify unusual days and patterns.
+
+
 ## Dataset
 
 Uses the [Individual Household Electric Power Consumption dataset](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption) or
