@@ -2,19 +2,21 @@
 
 Interactive Streamlit dashboard for analyzing household electricity consumption patterns.
 
-This project focuses on predicting energy usage, detecting anomalies, and grouping daily consumption patterns using ML models.I used two methods and got excellent accuracy of 96.2% with the MLP regressor (Consumption Analysis 2.ipynb)
+This project focuses on predicting energy usage, detecting anomalies, and grouping daily consumption patterns using ML models.I used two methods and got better accuracy of 96.2% with the MLP regressor (Consumption Analysis 2.ipynb) 
 
 ---
 
 ## 🔥 SUPERVISED LEARNING
 
-### **1. Random Forest Regressor**
+### ** Method 1. Random Forest Regressor**
+file: Consumption Analysis Task.ipynb
 - Uses past 24 hours as input window.
 - No scaling required.
 - Stable baseline model.
 - **Performance:** MAE = 0.5018, RMSE = 0.7361
 
-### **2. MLP Regressor (Neural Network)**
+### **Method 2. MLP Regressor (Neural Network)**
+file: Consumption Analysis 2.ipynb
 - Uses scaled 24-hour windows.
 - Learns smooth and complex time patterns better.
 - **Performance:** MAE = 0.0785, RMSE = 0.2130  
